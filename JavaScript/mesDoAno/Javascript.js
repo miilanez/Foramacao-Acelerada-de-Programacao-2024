@@ -4,6 +4,8 @@ function funcao1() {
     switch (mes) {
         case "1":
             alert("Janeiro");
+            // sobescrever conteudo html
+            // document.write ("Janeiro");
             break;
         case "2":
             alert("Fevereiro");
