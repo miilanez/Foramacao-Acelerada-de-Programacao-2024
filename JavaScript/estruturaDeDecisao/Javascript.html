@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tutorial de Alert em JavaScript - Linha de Código</title>
+<script>
+function funcao1()
+{
+let valor = prompt("Informe o valor: ")
+
+valorFormatado = parseInt(valor);
+
+if (valorFormatado >= 20) {
+    alert("O valor informado é maior ou igual a 10 e maior ou igual a 20")
+}
+else if (valorFormatado >= 10 & valorFormatado <= 20) {
+    alert("O valor informado é maior ou igual a 10 e menor ou igual a 20")
+} 
+else if (valorFormatado <= 10 & valorFormatado >= 20) {
+    alert("O valor informado é menor ou igual a 10 e maior ou igual a 20")
+}
+else {
+    alert("O valor informado não é maior ou igual a 10 nem maior ou igual a 20")
+}}
+</script>
+</head>
+<body>
+
+<input type="button" onclick="funcao1()" value="Exibir Alert" />
+
+</body>
+</html></div>
