@@ -6,6 +6,10 @@ function funcao1() {
         resultado += array[i];
     }
 
+    //soma dos valores
     console.log(resultado);
+    //media dos valores
+    media = resultado / array.length;
+    console.log(media);
 
 }
